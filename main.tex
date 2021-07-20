@@ -134,18 +134,23 @@ columns=fullflexible
 \renewcommand{\thetable}{\theenumi}
 Download all python codes from 
 \begin{lstlisting}
-https://github.com/ka-raja-babu/Matrix-Theory/tree/main/Assignment1/Codes
+https://github.com/Vallidevibolla/Assignment-2/blob/main/main.tex
 \end{lstlisting}
 %
 and latex-tikz codes from 
 %
 \begin{lstlisting}
-https://github.com/ka-raja-babu/Matrix-Theory/tree/main/Assignment1
+https://github.com/Vallidevibolla/Assignment-2/blob/main/main.tex
+\end{lstlisting}
+%
+Question taken from
+\begin{lstlisting}
+https://github.com/gadepall/ncert/blob/main/linalg/vectors/gvv_ncert_vectors.pdf- Q.no.2.18 
 \end{lstlisting}
 %
 \section{Question No.2.18}
 
-Consider the collision depicted in Fig. 2.18 to be between two billiard balls with equal masses m1=m2. The first ball is called the cue while the second ball is called the target. The billiard player wants to 'sink' the target ball in a corner pocket, which is at angle $\o$ = 37\degree. Assume that the collision is elastic and that friction and rotational motion are not important. Obtain $\theta$.
+Consider the collision depicted in Fig. 2.18 to be between two billiard balls with equal masses m1=m2. The first ball is called the cue while the second ball is called the target. The billiard player wants to 'sink' the target ball in a corner pocket, which is at angle $\Phi$ = 37\degree. Assume that the collision is elastic and that friction and rotational motion are not important. Obtain $\theta$.
 
 \numberwithin{figure}{section}
 \begin{figure}[ht]
@@ -170,36 +175,36 @@ Figure shows that the cue is moving with initial velocity u1 towards target
  
  The cue moving with velocity collide the target thereby both balls get collide and travel in two directions with some velocity.
  
- $\therefore$ The final velocity of cue =v1
+ $\therefore$ The final velocity of cue = v1
  
  The final velocity of target = v2
 \section{Formula}
 Momentum of the ball is given as P=mv
 \begin{align}
-    \boxed{m1u1+m2u2=m1v1+m2v2}  \\
-since (u2=0), also ( m1=m2=m )\\
-    \boxed{u1=v1+v2} 
-\end{align}    
+    \boxed{m_1u_1+m_2u_2=m_1v_1+m_2v_2}  \\
+since (u_2=0), also ( m_1=m_2=m )\\
+    \boxed{u_1=v_1+v_2} 
+\end{align}  
 The energy of two balls after collision is given by Kinetic energy.
-\textbf{K.E} =$\frac{1}{2}$m v^2 \\
+\textbf{K.E} =$\dfrac{1}{2}$mv^2 \\
  
-$\frac{1}{2}$mu1^2 = $\frac{1}{2}$mv1^2 + $\frac{1}{2}$mv2^2
+$\dfrac{1}{2}$mu_1^2 = $\dfrac{1}{2}$mv_1^2 + $\dfrac{1}{2}$mv_2^2
 
 \begin{align}
-    \boxed{u1^2 = v1^2 + v2^2} \\
-   \implies(v1+v2)^2 = v1^2+v2^2\\
-   \implies v1^2+v2^2+2v1v2 = v1^2+v2^2\\
-   \implies2v1v2=0\\
+    \boxed{u_1^2 = v_1^2 + v_2^2} \\
+   \implies(v_1+v_2)^2 = v_1^2+v_2^2\\
+   \implies v_1^2+v_2^2+2v_1v_2 = v_1^2+v_2^2\\
+   \implies2v_1v_2=0\\
    \implies v_1.v_2=0
 \end{align}
 
-since \cos{90\degree}=0\\
-\implies v_1.v_2(\cos{\Phi})=\cos{90\degree}\\
+since $\cos{90\degree}$=0\\
+\implies v_1.v_2(\cos{\theta+\Phi})=\cos{90\degree}\\
 Given, \Phi=37\degree
 \implies \cos{(\theta+37\degree)}=\cos{90\degree}\\
 \implies \theta+37\degree=90\degree\\
 \boxed{\theta=53\degree}\\
 
-$\therefore$ The angle of target was found to be \theta=53\degree
+$\therefore$ The angle of target was found to be $\theta$=53\degree
 
 \end{document}
